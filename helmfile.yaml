@@ -4,6 +4,6 @@ repositories:
      url: git+https://github.com/yengibaryanraf/helmchart.git
 
 releases:
- - name: helloworld123
-   chart: ./helloworld
-   installed: true
+  - name: helloworld1
+    chart: helloworld/.
+    installed: true
